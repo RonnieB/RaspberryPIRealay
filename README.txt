@@ -17,7 +17,7 @@ https://keyestudio.com/keyestudio-4-channel-5v-relay-shield-module-for-arduino-u
 8.  run java -jar solar-parent-1.0-SNAPSHOT.jar &
     OR
     Create a script in /etc/init.d/start.sh that starts the sercvice
-    chmod 775 start
-9.  sudo update-rc.d start defaults
+    chmod 775 start.sh
+9.  sudo update-rc.d start.sh defaults
 
 
