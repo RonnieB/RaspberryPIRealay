@@ -1,5 +1,8 @@
 How to Install
 
+You will need this HAT
+https://keyestudio.com/keyestudio-4-channel-5v-relay-shield-module-for-arduino-uno-r3-p0140.html
+
 1. install a new Rasbian OS
 2. Install corect Country settings and connect to WiFi. User: pi Password: pi
 3. Update Software
