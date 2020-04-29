@@ -1,0 +1,20 @@
+How to Install
+
+1. install a new Rasbian OS
+2. Install corect Country settings and connect to WiFi. User: pi Password: pi
+3. Update Software
+4. Run in terminal
+    wget https://github.com/bell-sw/Liberica/releases/download/11.0.2/bellsoft-jdk11.0.2-linux-arm32-vfp-hflt.de
+5.  Install Java
+    sudo apt-get install ./bellsoft-jdk11.0.2-linux-arm32-vfp-hflt.deb
+6.  Set the defaults
+    sudo update-alternatives --config javac
+    sudo update-alternatives --config java
+7.  Rasperry Configuration: Enable SSH
+8.  run java -jar solar-parent-1.0-SNAPSHOT.jar &
+    OR
+    Create a script in /etc/init.d/start.sh that starts the sercvice
+    chmod 775 start
+9.  sudo update-rc.d start defaults
+
+
